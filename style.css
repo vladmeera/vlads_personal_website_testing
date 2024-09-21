@@ -1,7 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 
 }
 
@@ -54,7 +53,7 @@ body {
 .box h1 {
     font-size: 15px;
     letter-spacing: 3px;
-    padding: 10px;
+    padding: 15px;
     cursor: default;
 }
 
@@ -66,18 +65,12 @@ body {
 }
 
 .box h5 {
-    font-size: 13px;
-    padding: 5px;
+    font-size: 10px;
+    padding: 3px;
     letter-spacing: 3px;
     cursor: default;
 }
 
-.box h5:hover{
-    color: goldenrod;
-    text-shadow: 0 0 10px goldenrod;
-    text-shadow: 0 0 30px goldenrod;
-    text-shadow: 0 0 70px goldenrod;
-}
 
 .box p{
     font-size: 10px;
