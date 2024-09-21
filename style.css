@@ -126,6 +126,11 @@ h3{
     animation: sql 3s;
 }
 
+.html{
+    width: 70%;
+    animation: html 3s;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -751,6 +756,15 @@ ul{
     }
     100%{
         width: 70%;
+    }
+    
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
     }
     
 }
