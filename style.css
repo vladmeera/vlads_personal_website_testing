@@ -127,7 +127,7 @@ h3{
 }
 
 .html{
-    width: 45%;
+    width: 40%;
     animation: html 3s;
 }
 
@@ -764,7 +764,7 @@ ul{
         width: 0%;
     }
     100%{
-        width: 45%;
+        width: 40%;
     }
     
 }
