@@ -3,63 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
-    </style>
     <script
       src="https://kit.fontawesome.com/4417467ce3.js"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" type="image/png" href="images/favicon.png" />
-    <title>Vlad Testing</title>
+    <title>Pure Testing</title>
   </head>
   <body>
-    <div class="background"></div>
-    <div id="stars"></div>
-    <div id="stars2"></div>
-    <div id="stars3"></div>
-    <div class="box" style="--clr: #daa520">
-      <img src="images/favicon.png" alt="" class="box-img" />
-      <h1>Vlad Mirgorodskiy</h1>
-      <h5>QA Engineer/Automation</h5>
-      <h5>Mobile/Web</h5>
+    <header>
+      <div class="logo-container">
+        <a href="index.html">
+          <img
+            src="images/logo.png"
+            alt="Vlad Mirgorodskiy"
+            class="profile-img"
+          />
+          <span class="logo-text">Pure Testing</span>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="testing.html">Testing</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="intro">
+        <h1>Simplify Testing, Maximize Results</h1>
+        <h5>Hi, my name is Vlad Mirgorodskiy and I'm QA Engineer</h5>
+      </section>
 
-      <div class="skills">
+      <section id="about" class="skills">
+        <h2>Skills</h2>
         <ul>
           <li>
-            <h3>python</h3>
+            <h3>Python</h3>
             <span class="bar"><span class="python"></span></span>
           </li>
           <li>
-            <h3>javascript</h3>
+            <h3>JavaScript</h3>
             <span class="bar"><span class="javascript"></span></span>
           </li>
           <li>
-            <h3>sql</h3>
+            <h3>SQL</h3>
             <span class="bar"><span class="sql"></span></span>
           </li>
           <li>
-            <h3>html/css</h3>
+            <h3>HTML/CSS</h3>
             <span class="bar"><span class="html"></span></span>
           </li>
         </ul>
-      </div>
-      <ul>
-        <li class="social">
-          <a href="https://www.linkedin.com/in/vladmeera/"
-            ><i class="fa-brands fa-linkedin"></i
-          ></a>
-        </li>
-        <li class="social">
-          <a href=""><i class="fa-brands fa-x-twitter"></i></a>
-        </li>
-        <li class="social">
-          <a href="https://github.com/vladmeera"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-      </ul>
-    </div>
+      </section>
+      <section id="contact" class="social-links">
+        <h2>Connect with me</h2>
+        <ul>
+          <li class="social">
+            <a href="https://www.linkedin.com/in/vladmeera/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </li>
+          <li class="social">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 Vlad Mirgorodskiy. All rights reserved.</p>
+    </footer>
   </body>
 </html>

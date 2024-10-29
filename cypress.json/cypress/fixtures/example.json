@@ -1,0 +1,6 @@
+{
+  "file": "cypress.json/cypress/fixtures/example.json",
+  "content": `{
+  "key": "value"
+}`
+}
