@@ -5,13 +5,13 @@
 }
 
 html{
-    height: -webkit-fill-avaliable;
+    height: -webkit-fill-available;
 }
 
 body {
     display: flex;
     overflow: hidden;
-    height: -webkit-fill-avaliable;
+    height: -webkit-fill-available;
 }
 
 .background{
