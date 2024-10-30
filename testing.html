@@ -14,7 +14,7 @@
   <body>
     <header>
       <div class="logo-container">
-        <a href="index.html">
+        <a href="index.html" class="logo-link">
           <img
             src="images/logo.png"
             alt="Vlad Mirgorodskiy"
@@ -34,54 +34,9 @@
       </nav>
     </header>
     <main>
-      <section id="test-form-section">
-        <h2>Test Form</h2>
-        <form id="test-form">
-          <label for="test-description">Test Description:</label>
-          <textarea
-            id="test-description"
-            name="test-description"
-            rows="4"
-            required
-          ></textarea>
-
-          <label for="test-script">Test Script:</label>
-          <textarea
-            id="test-script"
-            name="test-script"
-            rows="10"
-            required
-          ></textarea>
-
-          <label for="dropdown">Choose an option:</label>
-          <select id="dropdown" name="dropdown" required>
-            <option value="">Select an option</option>
-            <option value="option1">Option 1</option>
-            <option value="option2">Option 2</option>
-            <option value="option3">Option 3</option>
-          </select>
-
-          <fieldset>
-            <legend>Choose at least one:</legend>
-            <label
-              ><input type="checkbox" name="checkbox" value="checkbox1" />
-              Checkbox 1</label
-            >
-            <label
-              ><input type="checkbox" name="checkbox" value="checkbox2" />
-              Checkbox 2</label
-            >
-            <label
-              ><input type="checkbox" name="checkbox" value="checkbox3" />
-              Checkbox 3</label
-            >
-          </fieldset>
-
-          <button type="submit">Run Test</button>
-          <button type="reset" id="reset-button">Reset</button>
-        </form>
+      <section id="tests" class="test-section">
         <div class="button-types">
-          <h3>Button Types</h3>
+          <h3>Buttons</h3>
           <button type="button">Button</button>
           <input type="submit" value="Submit" />
           <input type="reset" value="Reset" />
@@ -102,34 +57,17 @@
         </div>
         <div class="text-fields">
           <h3>Text Fields</h3>
-          <label for="text-field1">Text Field 1:</label>
-          <input type="text" id="text-field1" name="text-field1" required />
+          <label for="text-field1">First Name</label>
+          <input type="text" id="first-name" name="text-field1" required />
 
-          <label for="text-field2">Text Field 2:</label>
-          <input type="text" id="text-field2" name="text-field2" required />
+          <label for="text-field2">Last Name</label>
+          <input type="text" id="last-name" name="text-field2" required />
         </div>
       </section>
     </main>
     <footer>
       <p>&copy; 2024 Vlad Mirgorodskiy. All rights reserved.</p>
     </footer>
-    <script>
-      document
-        .getElementById("test-form")
-        .addEventListener("submit", function (event) {
-          event.preventDefault();
-          if (this.checkValidity()) {
-            alert("Test Successful");
-          } else {
-            alert("Please fill out all required fields.");
-          }
-        });
-      document
-        .getElementById("reset-button")
-        .addEventListener("click", function () {
-          document.getElementById("test-form").reset();
-          alert("Form Reset");
-        });
-    </script>
+    <script></script>
   </body>
 </html>
